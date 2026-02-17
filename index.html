@@ -232,7 +232,7 @@
                 const dashboard = document.getElementById('dashboard-wrapper');
                 const extCard = document.getElementById('external-card');
                 const intCard = document.getElementById('internal-card');
-                if (inAQI > 50) { // Changed to 50 for testing, change back to 100 if needed
+                if (inAQI < 50) { // Changed to 50 for testing, change back to 100 if needed
                     overlay.style.display = 'block';
                     dashboard.style.display = 'none';
                     video.muted = true;
