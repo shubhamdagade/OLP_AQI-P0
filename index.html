@@ -60,7 +60,7 @@
             font-size: 6vh; font-weight: 400; 
             color: var(--text-grey); 
             line-height: 1.1; margin: 0; letter-spacing: 0.05vw;
-            white-space: normal;
+             white-space: nowrap;   /* Add this */
         }
         .status-word {
             font-weight: 600; color: var(--status-green); 
@@ -128,7 +128,7 @@
     <div class="dashboard-container" id="dashboard-wrapper">
         <div class="text-panel">
             <div class="live-tag">Live AQI</div>
-            <h1 class="headline">Indoor air quality is <span class="status-word" id="status-text">Excellent</span></h1>
+            <h1 class="headline">Indoor air quality is&nbsp;<span class="status-word" id="status-text">Excellent</span></h1>
         </div>
         <div class="cards-panel">
             <div class="card" id="internal-card">
