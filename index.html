@@ -250,7 +250,7 @@
                     video.pause();
                     video.currentTime = 0;
                     const diff = Math.abs(outAQI - inAQI);
-                    if (diff < 50) {
+                    if (diff < 30) {
                         intCard.classList.remove('hidden');
                         extCard.classList.add('hidden');
                     } else {
